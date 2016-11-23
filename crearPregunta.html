@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Oráculo</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script type></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<header>
+	    <div class="row border-bottom">
+		    <div class="col-md-4 right">
+		      <img src="img/logo.png" alt="Logo" class="logo">
+		    </div>
+		    <div class="col-md-4">
+		    	<h2>Preguntas y respuestas UTB</h2>
+		    </div>
+		    <div class="col-md-4">	    	
+					<form class="form-inline">
+					  <div class="input-group">
+				      <input type="text" class="form-control" name="buscar" placeholder="Buscar">
+				      <span class="input-group-btn">
+				        <button class="btn btn-default" type="submit">Buscar</button>
+				      </span>
+				    </div>
+					</form>
+		    </div>      
+	    </div>    
+	  </header>
+	  <section class="navbar">
+	  	<div class="container row">
+	  		<div class="col-md-12">
+	  			<nav class="navbar navbar">
+					  <ul class="nav navbar-nav">
+					    <li><a href="#">Inicio</a></li>
+					    <li><a href="categorias.html">Categorias</a></li>
+					    <li><a href="#">Acerca de</a></li>
+					    <li><a href="#">Ingresar</a></li>
+					  </ul>					  
+					</nav>
+	  		</div>
+	  	</div>	  	
+	  </section>
+
+	  <section class="contenido">
+	  	<div class="row border-bottom">
+	  		<div class="col-md-4">
+	  			<div class="list-group">	  				
+					  <a href="#" class="list-group-item">Inicio Login</a>
+					  <a href="crearPregunta.html" class="list-group-item">Crear pregutas</a>
+					  <a href="#" class="list-group-item">Consultar preguntas creadas</a>
+					  <a href="crearCategoria.html" class="list-group-item">Crear categorías</a>
+					  <a href="crearCategoria.html" class="list-group-item">Consultar categorías creadas</a>
+					  <a href="#" class="list-group-item">Crear editores</a>
+					  <a href="#" class="list-group-item">Consultar editores creadas</a>
+					</div>
+	  		</div>
+	  		<div class="col-md-8">
+	  			<h2>Crear Pregunta</h2>
+	  			<form class="form-horizontal">
+					  <div class="col-md-6">
+					    <label>Categorías</label>
+						  <select class="form-control" name="categoría">
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						    <option>4</option>
+						  </select>
+					  </div>
+					  <div class="col-md-6">
+					    <label>Editor</label>
+					    <input type="text" class="form-control" disabled>
+					  </div>
+					  <div class="col-md-6">
+						  <label>Pregunta</label>
+						  <textarea class="form-control" rows="5" name="pregunta"></textarea>
+					  </div>
+					  <div class="col-md-6">
+						  <label>Respuesta</label>
+						  <textarea class="form-control" rows="5" name="respuesta"></textarea>
+					  </div>					  					 
+					  <div class="col-md-12 center">    
+					    <button type="submit" class="btn btn-default">Crear</button>
+					  </div>
+					</form>
+	  		</div>
+	  	</div>
+	  </section>
+	  <footer>
+	  	<div class="row center">
+	  		<div class="col-md-12">	  			
+	  			<p>Derechos Reservados</p>
+	  			<p>Reconocimineto de Licencias</p>
+	  		</div>
+	  	</div>
+	  </footer>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrapmin.js"></script>
+	</body>
+</html>
