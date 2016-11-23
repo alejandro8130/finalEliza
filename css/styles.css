@@ -4,6 +4,27 @@
   padding: 0 auto;
 }
 
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.bottom {
+  padding-top: 50px; 
+}
+
+.border-bottom {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+
 body {
   background: #eee;
   font-family: 'Roboto', sans-serif;
@@ -13,33 +34,17 @@ body {
 header {
   /*background-color: rgba(48, 48, 48, 0.5);*/
   padding: 10px;
-  position: fixed;
   width: 100%;
 }
 
 header h2 {
   color: #08298A;
+}
+
+header form {
   padding-top: 25px;
 }
 
-nav {
-  float: right;
-  margin: 10px;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 10px;
-  padding: 10px 15px;
-}
-
-nav a.active {
-  background: #fed136;
-  border-radius: 3px;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+.categorias .img-categorias {
+  height: 20%;
 }
